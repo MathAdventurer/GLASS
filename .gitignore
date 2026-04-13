@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+
+# Large/generated GLASS artifacts
+data/
+models/
+checkpoints/
+results/
+logs/
+embedding_cache/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Temporary outputs
+tmp/
+*.log
+*.aux
+*.out
+*.toc
