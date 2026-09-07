@@ -9,6 +9,18 @@ text encoder, aligns a structure-aware GNN to native Matryoshka text slices on
 the unit hypersphere, and scores query graphs against normal references with
 spherical angular kNN density estimates.
 
+If you find this repository useful or use it in your research, please cite our [paper](https://arxiv.org/abs/2609.05253):
+```
+@misc{wang2026glass,
+      title={GLASS: Graph-Language Alignment with Spherical Scoring for Transferable Graph-Level Anomaly Detection}, 
+      author={Xudong Wang and Chris Ding and Tongxin Li and Jicong Fan},
+      year={2026},
+      eprint={2609.05253},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2609.05253}, 
+}
+```
 
 ## Method Overview
 
